@@ -16,12 +16,12 @@
   </head>
 
   <body id="contact-background">
-    <form>
+    <form action="https://formspree.io/me94110@gmail.com" method="POST">
       <div class="form-title">
         <span id="color-form-title">Contactez-moi</span>
         <svg
           class="bi bi-box-arrow-left"
-          onclick="location.href='http://index.html'"
+          onclick="location.href='index.html'"
           width="1em"
           height="1em"
           viewBox="0 0 16 16"
@@ -50,11 +50,23 @@
         <div id="error_message"></div>
         <div class="items">
           <label class="label">Nom</label>
-          <input type="text" id="name" class="input" placeholder="Nom" />
+          <input
+            type="text"
+            id="names"
+            name="name"
+            class="input"
+            placeholder="Nom"
+          />
         </div>
         <div class="items">
           <label for="email">Email</label>
-          <input type="email" class="email" id="email" placeholder="Email" />
+          <input
+            type="email"
+            class="email"
+            id="email"
+            name="_replyto"
+            placeholder="Email"
+          />
         </div>
         <div class="items">
           <label class="label">Sujet</label>
@@ -64,9 +76,9 @@
           <label class="label">Message</label>
           <textarea id="msg" class="text-area" placeholder="Message"></textarea>
         </div>
-        <button class="btn-form" type="button" onclick="validateForm()">
-          Envoyer
-        </button>
+        <input type="submit" value="Send"  class="btn-form" onclick="validateForm()">
+     
+      
       </div>
     </form>
 

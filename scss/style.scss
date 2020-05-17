@@ -246,10 +246,8 @@ $secondary-color: #eece1a;
       width: 100%;
 
       display: flex;
-      background-color: red;
 
       .about-me-portrait {
-        background-color: yellow;
         display: grid;
         width: 30%;
         height: 100%;
@@ -285,8 +283,9 @@ $secondary-color: #eece1a;
       grid-area: c;
     }
 
-    .skillsk-and-knowledge-boxes {
-      background: gold;
+    .skillsk-and-knowledge-boxes h2 {
+      color: $secondary-color;
+     text-shadow:0 0 3px rgb(26, 26, 9)
     }
   }
 }
@@ -313,10 +312,8 @@ $secondary-color: #eece1a;
         width: 100%;
 
         display: block;
-        background-color: red;
 
         .about-me-portrait {
-          background-color: yellow;
           display: grid;
           width: 100%;
           height: 160px;
@@ -340,7 +337,6 @@ $secondary-color: #eece1a;
       height: 600px;
       margin-top: 0px;
       .skillsk-and-knowledge-boxes {
-        background: gold;
       }
     }
   }
@@ -351,7 +347,6 @@ $secondary-color: #eece1a;
   background-color: $primary-color;
   height: 100vh;
 
- 
   h1 {
     margin: 0;
     font-weight: 400;
@@ -366,14 +361,12 @@ $secondary-color: #eece1a;
     color: $secondary-color;
   }
   .projects {
-    
     margin: auto;
     display: grid;
     grid-template-areas: "col-sm col-sm col-sm";
     grid-gap: 0.7rem;
     grid-template-columns: repeat(4, 1fr);
     width: 60%;
- 
 
     .item {
       width: 100%;
@@ -389,7 +382,7 @@ $secondary-color: #eece1a;
       //Work Button Styles
       .btn {
         display: block;
-       
+
         border: 0;
         margin-bottom: 0.3rem;
         &:hover {
@@ -432,7 +425,7 @@ $secondary-color: #eece1a;
       padding-top: 4%;
     }
     .projects {
-      margin:auto;
+      margin: auto;
       display: grid;
       grid-template-areas: "col-sm col-sm";
       grid-gap: 0.7rem;
@@ -468,10 +461,8 @@ $secondary-color: #eece1a;
         width: 100%;
 
         display: block;
-        background-color: red;
 
         .about-me-portrait {
-          background-color: yellow;
           display: grid;
           width: 100%;
           height: 160px;
@@ -495,7 +486,6 @@ $secondary-color: #eece1a;
       height: 600px;
       margin-top: 0px;
       .skillsk-and-knowledge-boxes {
-        background: gold;
       }
     }
   }
@@ -510,7 +500,7 @@ $secondary-color: #eece1a;
 #contact-background {
   display: grid;
   place-items: center;
-  background: url(./images/contact-background.jpg) no-repeat;
+  background: url(.././images/contact-background.jpg) no-repeat;
   background-size: cover;
   form {
     background-color: rgba(15, 13, 13, 0.5);
@@ -518,7 +508,6 @@ $secondary-color: #eece1a;
     width: 500px;
     height: 600px;
 
-  
     .form-title {
       font-size: 2em;
       line-height: 1.25em;
