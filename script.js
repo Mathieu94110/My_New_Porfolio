@@ -54,7 +54,7 @@ function toggleMenu() {
 //      <button class="btn">Envoyer</button>
 
 function validateForm() {
-  var name = window.document.getElementById("name").value;
+  var name = window.document.getElementById("names").value;
   var email = window.document.getElementById("email").value;
   var error_message = window.document.getElementById("error_message");
   var text;
