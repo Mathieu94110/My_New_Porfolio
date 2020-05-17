@@ -1,0 +1,29 @@
+{
+  "name": "my-responsive-portfolio",
+  "version": "1.0.0",
+  "description": "Responsive portfolio for desktops and mobiles",
+  "main": "index.js",
+  "homepage": "https://github.com/Mathieu94110/My_New_Porfolio#readme",
+  "scripts": {
+    "sass": "sass scss/style.scss:dist/css/style.css",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "gh-pages": "^2.2.0",
+    "node-sass": "^4.9.2"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mathieu94110/My_New_Porfolio.git"
+  },
+  "keywords": [
+    "my_Responsive_Porfolio"
+  ],
+  "author": "Mathieu Enault",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Mathieu94110/My_New_Porfolio/issues"
+  }
+}
