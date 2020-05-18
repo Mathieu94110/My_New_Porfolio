@@ -1,18 +1,18 @@
 * {
   box-sizing: border-box; }
 
-body {
+#bg-img {
   background-color: #444;
   color: #fff;
   height: 100vh;
   margin: 0;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.7; }
-  body#bg-img {
+  #bg-img#bg-img {
     background: url(./images/coding-academy.jpeg);
     background-attachment: fixed;
     background-size: cover; }
-    body#bg-img:after {
+    #bg-img#bg-img:after {
       content: "";
       position: absolute;
       top: 0;
@@ -133,7 +133,8 @@ main {
 @media all and (max-width: 766px) {
   main#home {
     text-align: center;
-    align-items: center; }
+    align-items: center;
+    height: 100vh; }
     main#home h1 {
       margin-top: 10vh;
       line-height: 1;
@@ -161,7 +162,9 @@ main {
       height: 110px; } }
 #about-me-page {
   margin-left: 2%;
-  margin-right: 2%; }
+  margin-right: 2%;
+  background-color: #444;
+  color: #fff; }
   #about-me-page h1.lg-heading {
     text-align: center; }
   #about-me-page #presentation {
@@ -197,7 +200,9 @@ main {
     #about-me-page .container h2 {
       color: #eece1a; }
     #about-me-page .container span {
-      font-weight: bold; }
+      color: #eece1a;
+      font-weight: bold;
+      text-decoration: underline #fff; }
 
 @media all and (max-width: 766px) {
   #about-me-page {
@@ -294,7 +299,8 @@ main {
   display: grid;
   place-items: center;
   background: url(.././images/contact-background.jpg) no-repeat;
-  background-size: cover; }
+  background-size: cover;
+  height: 100vh; }
   #contact-background form {
     background-color: rgba(15, 13, 13, 0.5);
     margin: auto;
@@ -311,8 +317,7 @@ main {
       #contact-background form .form-title #color-form-title {
         color: #eece1a; }
     #contact-background form .contact-me {
-      padding: 0 30px;
-      height: 100%; }
+      padding: 0 30px; }
       #contact-background form .contact-me #error_message {
         margin-bottom: 20px;
         padding: 0px;
@@ -353,10 +358,11 @@ main {
 
 @media all and (max-width: 766px) {
   #contact-background {
-    display: block; }
+    display: block;
+    height: 100%; }
     #contact-background form {
       width: 100%;
-      height: 100vh;
+      height: 100%;
       background-color: rgba(15, 13, 13, 0.5);
       margin: auto; }
       #contact-background form .form-title {
@@ -370,8 +376,7 @@ main {
         #contact-background form .form-title #color-form-title {
           color: #eece1a; }
       #contact-background form .contact-me {
-        padding: 0 30px;
-        height: 100%; }
+        padding: 0 30px; }
         #contact-background form .contact-me #error_message {
           margin-bottom: 10px;
           padding: 0px;
