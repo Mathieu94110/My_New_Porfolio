@@ -363,6 +363,7 @@ $secondary-color: #eece1a;
       width: 100%;
       img {
         width: 100%;
+
         border: 3px #fff solid;
         &:hover {
           opacity: 0.5;
@@ -437,7 +438,7 @@ $secondary-color: #eece1a;
   place-items: center;
   background: url(.././images/contact-background.jpg) no-repeat;
   background-size: cover;
-  height: 100vh;
+  height: 100%;
   form {
     background-color: rgba(15, 13, 13, 0.5);
     margin: auto;
