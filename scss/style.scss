@@ -293,8 +293,30 @@ $secondary-color: #eece1a;
 @media all and (max-width: 766px) {
   //Page About Me
   #about-me-page {
-    margin-left: 4%;
-    margin-right: 4%;
+    margin: none;
+    ul.menu-nav,
+    div.menu-branding {
+      width: 100%;
+      min-height: 0;
+      &.show {
+        transform: translate3d(0, 0, 0);
+      }
+    }
+    .menu-nav {
+      height: 75vh;
+      transform: translate3d(-100%, 0, 0);
+      font-size: 25px;
+    }
+    .menu-branding {
+      height: 25vh;
+      transform: translate3d(100%, 0, 0);
+
+      img {
+        width: 110px;
+        height: 110px;
+      }
+    }
+
     #presentation {
       width: 100%;
       height: 450px !important;
@@ -416,6 +438,29 @@ $secondary-color: #eece1a;
   #my-work-page {
     background-color: $primary-color;
     height: 100vh;
+
+    ul.menu-nav,
+    div.menu-branding {
+      width: 100%;
+      min-height: 0;
+      &.show {
+        transform: translate3d(0, 0, 0);
+      }
+    }
+    .menu-nav {
+      height: 75vh;
+      transform: translate3d(-100%, 0, 0);
+      font-size: 25px;
+    }
+    .menu-branding {
+      height: 25vh;
+      transform: translate3d(100%, 0, 0);
+
+      img {
+        width: 110px;
+        height: 110px;
+      }
+    }
 
     h1.lg-heading {
       font-size: 2.5rem;
