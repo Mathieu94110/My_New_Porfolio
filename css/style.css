@@ -247,7 +247,9 @@ main {
     grid-template-columns: repeat(4, 1fr);
     width: 60%; }
     #my-work-page .projects .item {
-      width: 100%; }
+      width: 100%;
+      position: relative;
+      margin: auto; }
       #my-work-page .projects .item img {
         width: 100%;
         border: 3px #fff solid; }
